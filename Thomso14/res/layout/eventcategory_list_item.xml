@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llinear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@drawable/strip">
+
+    <ImageView
+        android:id="@+id/eventImage"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/hello"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" 
+        android:visibility="gone"/>
+
+    <!-- android:background="@drawable/border" -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:minHeight="75dp" 
+        >
+
+        <TextView
+            android:id="@+id/tv_eName"
+             
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:textSize="21sp"
+        android:maxLines="4"
+        android:maxWidth="200dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Large Text "
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#FF0000"
+       
+       />
+
+        <TextView
+            android:id="@+id/tv_eDescr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:text="descr"
+            android:textColor="#d2d2d2"
+            android:textSize="15sp" 
+            android:visibility="gone"/>
+        <TextView
+        android:id="@+id/thumb_event_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:paddingBottom="5dp"
+        android:text="9:00 AM -1:00 PM"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+    <TextView
+        android:id="@+id/thumb_event_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/thumb_event_time"
+        android:textColor="#fff"
+        android:paddingTop="4dp"
+        android:text="Competition"
+        android:textSize="11sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+     <TextView
+        android:id="@+id/thumb_event_venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/thumb_event_time"
+        android:layout_alignRight="@+id/thumb_event_time"
+        android:text="Convocation Hall"
+        android:layout_centerVertical="true"
+        android:maxLines="1"
+        android:textColor="#fff"
+        android:layout_marginBottom="8dp"
+        
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+
+        <!-- </LinearLayout> -->
+    </RelativeLayout>
+
+</LinearLayout>

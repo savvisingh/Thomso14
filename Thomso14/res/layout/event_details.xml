@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcklarge"
+    android:padding="5dp"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp" >
+
+            <ImageView
+                android:id="@+id/event_ImView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:visibility="gone" />
+
+            <!-- <LinearLayout -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_gravity="right" -->
+            <!-- android:orientation="vertical" > -->
+
+            <TextView
+                android:id="@+id/event_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textSize="30sp" 
+                android:textColor="#ffffff"
+                android:text="Vogue"
+                android:typeface="sans"
+                android:textStyle="normal"/>
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/event_tag" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_gravity="right" -->
+            <!-- android:text="OneLiner" -->
+            <!-- android:textSize="20sp" /> -->
+            <!-- </LinearLayout> -->
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/star"
+            style="?android:attr/starStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingRight="15dp" />
+
+        <TextView
+            android:id="@+id/event_oneliner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="7dp"
+            android:textSize="20sp" 
+             android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/event_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="10dp"
+            android:textSize="20sp"
+             android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="10dp"
+            android:textSize="20sp"
+             android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/event_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/event_venue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="10dp"
+            android:textSize="20sp" 
+            android:textColor="#00FFFF"/>
+      
+        <TextView
+            android:id="@+id/event_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+           android:layout_marginRight="20dp"
+            android:textSize="20sp" 
+            android:text="Contact"
+            android:background="@drawable/contact_button_bg"
+            android:typeface="serif"
+            android:textColor="#ffffff"/> 
+        
+       
+            
+       
+    </LinearLayout>
+
+</ScrollView>
