@@ -1,4 +1,4 @@
-Cognizance
+Thomso
 ==========
 
-Android Application for Cognizance 2014 , technical fest of IIT-Roorkee
+Android Application for Thomso 2014 , Cultural fest of IIT-Roorkee
